@@ -13,7 +13,7 @@ function kata1(num) {
     }
     return showResult(resultado)
 }   
-// kata1(25)
+ kata1(25)
 
 function kata2(num) {
     let resultado = [];
@@ -33,7 +33,7 @@ function kata3(num) {
     }
     return showResult(resultado)
 }
-// kata3(-25)
+ kata3(-25)
 function kata4(num) {
     let resultado = [];
     
@@ -42,7 +42,7 @@ function kata4(num) {
     }
     return showResult(resultado)
 }
- // kata4(-25)
+  kata4(-25)
 
 function kata5(num) {
     let resultado = [];
@@ -54,7 +54,7 @@ function kata5(num) {
     }
     return showResult(resultado)
 }
-// kata5(25)
+ kata5(25)
 
 function kata6(num) {
     let resultado = [];
@@ -66,7 +66,7 @@ function kata6(num) {
     }
     return showResult(resultado)
 }
-// kata6(100)
+ kata6(100)
 
 function kata7(num) {
     let resultado = [];
@@ -78,7 +78,7 @@ function kata7(num) {
     }
     return showResult(resultado)
 }
-// kata7(100)
+kata7(100)
 
 function kata8(num) {
     let resultado = [];
@@ -93,7 +93,7 @@ function kata8(num) {
     }
     return showResult(resultado)
 }
-// kata8(100)
+kata8(100)
 
 function kata9(num) {
     let resultado = [];
@@ -105,12 +105,12 @@ function kata9(num) {
     }
     return showResult(resultado)
 }
-// kata9(100)
+ kata9(100)
 
 function kata10(arr) {
     return console.log(arr)
 }
-// kata10(sampleArray)
+ kata10(sampleArray)
 function kata11(arr) {
     let resultado = [];
     for(let i = 0; i < arr.length; i++){
@@ -175,16 +175,44 @@ function kata16(num) {
 kata16(sampleArray)
 
 function kata17(num) {
+   /* for(let i = 0; i > num.length;i++){
+        let random = num[i];
+        let menor = 10000;
+
+        if(random < menor){
+            menor = random;
+        }
+        return showResult(menor) 
+    }*/
+    
     return showResult(Math.min(...num))
+    
+
 }
 
 kata17(sampleArray)
 
 function kata18(num) {
-    return showResult(Math.max(...num))
+    
+   /* for(let i = 0; i > num.length;i++){
+        let random = num[i];
+        let maior = 0;
+
+        if(random > maior){
+            maior = random;
+        }
+        
+    }
+    return showResult(maior) */
+    return showResult(Math.min(...num))
 }
-kata18(sampleArray)
-console.log(Math.max())
+
+//kata18(sampleArray)
+
+
+
+
+
 /**
  * Daqui em diante são os bônus, por sua conta e risco
  */
